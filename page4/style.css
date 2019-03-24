@@ -1,20 +1,133 @@
- @font-face {
-     font-family: "font0";
-     src: url("fonts/Roboto-Light.ttf") format("truetype");
- }
+@font-face {
+    font-family: "roboto-light";
+    src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
 
- @font-face {
-     font-family: "font1";
-     src: url("fonts/Roboto-Regular.ttf") format("truetype");
- }
+@font-face {
+    font-family: "roboto-regular";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
 
- body {
-     margin: 0;
- }
+body {
+    margin: 0;
+}
 
- header {
-     background-color: rgb(14, 124, 228);
-     height: 10px;
-     width: 100%;
- }
+.header {
+    background-color: rgb(14, 124, 228);
+    height: 10px;
+    width: 100%;
+    margin: auto;
+}
 
+.empty-space {
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+.up-container {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.up-left {
+    width: 250px;
+    border-right: 1px solid black;
+}
+.up-right {
+    flex: 1;
+}
+.up-right-title {
+    color: rgb(58, 162, 223);
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+}
+.up-right-description {
+    color: grey;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+}
+.mid-container {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.col-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.col-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.col-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.in-img-0 {
+    flex: 1;
+    background: url(img/italy.jpg); 
+    background-size:100% 100%;
+
+}
+.in-img-1 {
+    flex: 1;
+    background-image: url("img/germany.jpg");
+    background-size:100% 100%;
+}
+.in-img-2 {
+    flex: 1;
+    background-image: url("img/poland.jpg");
+    background-size:100% 100%;
+}
+.in-img-3 {
+    flex: 1;
+    background-image: url("img/croatia.jpg");
+    background-size:100% 100%;
+}
+.in-img-4 {
+    flex: 1;
+    background-image: url("img/cambodia.jpg");
+    background-size:100% 100%;
+}
+.in-img-5 {
+    flex: 1;
+    background-image: url("img/poland2.jpg");
+    background-size:100% 100%;
+}
+.down-container {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.down-left {
+    width: 450px;
+    border-right: 1px solid black;
+}
+.down-right {
+    flex: 1;
+}
+.down-right-title {
+    color: rgb(58, 162, 223);
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+}
+.down-right-description {
+    color: grey;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+}
