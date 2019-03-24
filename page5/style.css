@@ -1,20 +1,143 @@
- @font-face {
-     font-family: "font0";
-     src: url("fonts/Roboto-Light.ttf") format("truetype");
- }
-
- @font-face {
-     font-family: "font1";
-     src: url("fonts/Roboto-Regular.ttf") format("truetype");
- }
-
- body {
-     margin: 0;
- }
-
- header {
-     background-color: rgb(14, 124, 228);
-     height: 10px;
-     width: 100%;
- }
-
+@font-face {
+    font-family: "roboto-light";
+    src: url("1.ttf") format("truetype");
+}
+@font-face {
+    font-family: "roboto-regular";
+    src: url("0.ttf") format("truetype");
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: rgb(14, 124, 228);
+    height: 10px;
+    width: 100%;
+    margin: auto;
+}
+.empty-space {
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+.up-container {
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    background: url(img/contact.jpg);
+    background-size: 100% 100%;
+}
+.block {
+    height: 75px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid blue;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.block-title {
+    color: rgb(14, 124, 228);
+    font-family: 'roboto-light', Helvetica;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.left-col {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.left-title {
+    color: rgb(14, 124, 228);
+    margin: 20px 100px;
+    font-family: 'roboto-light', Helvetica;
+}
+.left-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
+}
+.phone-box {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    border-right: 1px solid grey;
+}
+.phone-icon {
+    flex: 1;
+    margin-left: 20px;
+}
+.phone-title{
+    flex: 25%;
+    margin-top: 45px;
+    font-family: 'roboto-regular', Helvetica;
+}
+.hour-box {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    border-right: 1px solid grey;
+}
+.hour-icon {
+    flex: 1;
+    margin-left: 20px;
+}
+.hour-title{
+    flex: 25%;
+    margin-top: 45px;
+    font-family: 'roboto-regular', Helvetica;
+}
+.email-box {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+.email-icon {
+    flex: 1;
+    margin-left: 20px;
+}
+.email-title{
+    flex: 25%;
+    margin-top: 45px;
+    font-family: 'roboto-regular', Helvetica;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-col {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid grey;
+}
+.footer-title {
+    flex: 1;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    color: rgb(14, 124, 228);
+}
+.footer-email {
+    flex: 1;
+}
+.email-container {
+    flex: 25%;
+    margin-top: 45px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    font-family: 'roboto-regular', Helvetica;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
