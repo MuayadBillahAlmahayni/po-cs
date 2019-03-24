@@ -1,0 +1,114 @@
+ @font-face {
+     font-family: "light-font";
+     src: url("fonts/Roboto-Light.ttf") format("truetype");
+ }
+
+ @font-face {
+     font-family: "regular-font";
+     src: url("fonts/Roboto-Regular.ttf") format("truetype");
+ }
+
+
+ body {
+     margin: auto;
+     width: 1200px;
+     margin-right: 21.2%;
+     
+ }
+
+ header {
+     background-color: #206db6;
+     height: 11px;
+     width: 100%;
+ }
+
+ h1 {
+     font-family: light-font;
+     font-weight: normal;
+     color: #206db6;
+ }
+
+ .wrapper {
+     
+     display: flex;
+     justify-content: left;
+     align-items: stretch;
+     align-content: center;
+     /* border: 1px solid black; */
+
+ }
+
+ .right-box {
+     max-width: 46.5%;
+     /* margin-right: 15%; */
+     /* border: 1px solid rgb(255, 0, 0); */
+
+ }
+
+ .left-box {
+     max-width: 46.5%;
+     /* max-height: 100%; */
+ }
+
+ .img-box img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .img-box {
+     /* width: 100%; */
+ }
+
+ .bottom-caption {
+     text-align: end;
+     font-family: light-font;
+     font-size: 200%;
+     font-weight: normal;
+ }
+
+ .para {
+     font-family: light-font;
+     color: #788382;
+     width: 90%;
+     
+    
+
+ }
+ .content{
+     padding: 8em 0px 35px 40px ;
+     margin: 0% ;
+ }
+
+ .para em {
+     font-family: regular-font;
+ }
+
+ .title h1 {
+     
+     /* padding: 5em 5em 1em 2.5em; */
+     /* margin-bottom: -20%; */
+     /* margin-left: 10%; */
+     
+ }
+
+ .qu h1 {
+     font-family: light-font;
+     font-size: 250px;
+ }
+
+ .start-quotation {
+     position: relative;
+     width: 30px;
+     left: 18px;
+     bottom: 11.5px;
+     filter: opacity(25%);
+ }
+
+ .end-quotation {
+     position: relative;
+     width: 32px;
+     left: 9px;
+     bottom: 47px;
+     filter: opacity(25%);
+     transform: scaleX(-1);
+ }
