@@ -10,9 +10,9 @@
 
 
  body {
-     margin: auto;
-     width: 1200px;
-     margin-right: 21.2%;
+     margin: 0;
+     /* width: 1268px; */
+     /* margin-right: 21.2%; */
      
  }
 
@@ -39,14 +39,16 @@
  }
 
  .right-box {
-     max-width: 46.5%;
+     flex: 1;
+     /* max-width: 46.5%; */
      /* margin-right: 15%; */
      /* border: 1px solid rgb(255, 0, 0); */
 
  }
 
  .left-box {
-     max-width: 46.5%;
+     flex: 1;
+     /* max-width: 46.5%; */
      /* max-height: 100%; */
  }
 
@@ -99,7 +101,7 @@
  .start-quotation {
      position: relative;
      width: 30px;
-     left: 18px;
+     left: 16px;
      bottom: 11.5px;
      filter: opacity(25%);
  }
@@ -108,7 +110,7 @@
      position: relative;
      width: 32px;
      left: 9px;
-     bottom: 47px;
+     bottom : 47px;
      filter: opacity(25%);
      transform: scaleX(-1);
  }
