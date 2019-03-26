@@ -1,20 +1,127 @@
- @font-face {
-     font-family: "font0";
-     src: url("fonts/Roboto-Light.ttf") format("truetype");
- }
+@font-face {
+    font-family: "roboto-light";
+    src: url("1.ttf") format("truetype");
+}
+@font-face {
+    font-family: "roboto-regular";
+    src: url("0.ttf") format("truetype");
+}
+body {
+    margin: 0;
+}
+/* Top Border */
+.header {
+    background-color: rgb(14, 124, 228);
+    height: 10px;
+    width: 100%;
+    margin: auto;
+}
+/* Top Right Space */
+.empty-space {
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+/* Top Description */
+.up-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+/* Top Left Space */
+.up-left {
+    width: 150px;
+    border-right: 1px solid black;
+    height: 240px;
+}
 
- @font-face {
-     font-family: "font1";
-     src: url("fonts/Roboto-Regular.ttf") format("truetype");
- }
+/********** Top Left Description **********/
+.up-mid {
+    flex: 1;
+    
+}
+.up-mid-title {
+    color: rgb(58, 162, 223);
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    
+}
+.up-mid-description {
+    color: grey;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    width: 75%;
+}
 
- body {
-     margin: 0;
- }
 
- header {
-     background-color: rgb(14, 124, 228);
-     height: 10px;
-     width: 100%;
- }
 
+
+
+/********** Top Right Description **********/
+.up-right {
+    flex: 1;
+    border-left:  1px solid black;
+}
+.up-right-title {
+    color: rgb(58, 162, 223);
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    
+}
+.up-right-description {
+    color: grey;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    width: 75%;
+}
+.mid-link{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 14px;
+
+}
+
+
+
+/********** Img Section **********/
+
+.mid-container {
+    display: flex;
+    height: 21em;
+    width: 100%;
+    justify-content: center;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/********** Bottom Descriotion **********/
+.down-container {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.down-right {
+    flex: 1;
+}
+.down-right-title {
+    color: rgb(58, 162, 223);
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+}
+.down-right-description {
+    color: grey;
+    margin-left: 25px;
+    font-family: 'roboto-light', Helvetica;
+    width: 75%
+}
+.down-left {
+    width: 350px;
+    border-right: 1px solid black;
+    height: 200px;
+}
