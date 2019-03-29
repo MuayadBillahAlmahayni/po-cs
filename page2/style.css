@@ -16,5 +16,70 @@
      background-color: rgb(14, 124, 228);
      height: 10px;
      width: 100%;
- }
+}
 
+.wrapper{
+    margin-top: 50px;
+    
+}
+ .top-box{
+    display: flex;
+    margin-left: 10%;
+    color: #206db6;
+}
+ .top-box .growth ,.leads ,.knows ,.turnover{
+    border-left: 1px solid #000;
+    padding-left: 20px;
+    
+}
+ .top-box .growth{
+    width: 25%;
+    padding-bottom: 6%
+}
+ .top-box .leads{
+    width: 25%;
+    margin-top: 5%
+}
+ .top-box .knows{
+    width: 25%;
+    padding-bottom: 6%
+}
+ .top-box .turnover{
+    width: 25%;
+    margin-top: 5%
+}
+.top-box  span{
+    font-size: 1em;
+}
+.top-box  p{
+    font-size: .8em;
+    color: #788382;
+    font-weight:100 ;
+}
+.mid-box .img-box img{
+    display: flex;
+    height: 28em;
+    width: 100%;
+    justify-content: center;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 0;
+    width: 100%
+}
+.bottom-section div {
+    text-align: center
+}
+.bottom-section div img{
+    width: 5em
+}
+.bottom-section div p{
+    font-size: 1.6em;
+    color: #788382;
+    font-weight: 400;
+    margin-top: .5em
+}

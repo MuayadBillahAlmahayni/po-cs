@@ -1,114 +1,105 @@
- @font-face {
-     font-family: "light-font";
-     src: url("fonts/Roboto-Light.ttf") format("truetype");
- }
+/* Two fonts used with for different types of text */
 
- @font-face {
-     font-family: "regular-font";
-     src: url("fonts/Roboto-Regular.ttf") format("truetype");
- }
+@font-face {
+    font-family: "light-font";
+    src: url("fonts/Roboto-Light.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: "regular-font";
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
 
- body {
-     margin: auto;
-     width: 1200px;
-     margin-right: 21.2%;
-     
- }
+body {
+    margin: 0;
+}
 
- header {
-     background-color: #206db6;
-     height: 11px;
-     width: 100%;
- }
+/* This is to create the blue bar at the top */
 
- h1 {
-     font-family: light-font;
-     font-weight: normal;
-     color: #206db6;
- }
+header {
+    background-color: #206db6;
+    height: 11px;
+    width: 100%;
+}
 
- .wrapper {
-     
-     display: flex;
-     justify-content: left;
-     align-items: stretch;
-     align-content: center;
-     /* border: 1px solid black; */
+/* Used to style the large text in blue */
 
- }
+h1 {
+    font-family: light-font;
+    font-weight: normal;
+    color: #206db6;
+}
 
- .right-box {
-     max-width: 46.5%;
-     /* margin-right: 15%; */
-     /* border: 1px solid rgb(255, 0, 0); */
+/* Style to ensure proper positioning of content */
 
- }
+.wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    align-content: center;
+}
 
- .left-box {
-     max-width: 46.5%;
-     /* max-height: 100%; */
- }
+/* Causes the content on the right to occupy half of the page */
 
- .img-box img {
-     width: 100%;
-     height: 100%;
- }
+.right-box {
+    flex: 1;
+}
 
- .img-box {
-     /* width: 100%; */
- }
+/* Causes the content on the left to occupy half of the page */
 
- .bottom-caption {
-     text-align: end;
-     font-family: light-font;
-     font-size: 200%;
-     font-weight: normal;
- }
+.left-box {
+    flex: 1;
+}
 
- .para {
-     font-family: light-font;
-     color: #788382;
-     width: 90%;
-     
-    
+/* The rest is mostly styles for the text */
 
- }
- .content{
-     padding: 8em 0px 35px 40px ;
-     margin: 0% ;
- }
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
 
- .para em {
-     font-family: regular-font;
- }
+.bottom-caption {
+    text-align: end;
+    font-family: light-font;
+    font-size: 200%;
+    font-weight: normal;
+}
 
- .title h1 {
-     
-     /* padding: 5em 5em 1em 2.5em; */
-     /* margin-bottom: -20%; */
-     /* margin-left: 10%; */
-     
- }
+.para {
+    font-family: light-font;
+    color: #788382;
+    width: 90%;
+}
 
- .qu h1 {
-     font-family: light-font;
-     font-size: 250px;
- }
+.content {
+    padding: 8em 0px 35px 40px;
+    margin: 0%;
+}
 
- .start-quotation {
-     position: relative;
-     width: 30px;
-     left: 18px;
-     bottom: 11.5px;
-     filter: opacity(25%);
- }
+.para em {
+    font-family: regular-font;
+}
 
- .end-quotation {
-     position: relative;
-     width: 32px;
-     left: 9px;
-     bottom: 47px;
-     filter: opacity(25%);
-     transform: scaleX(-1);
- }
+.qu h1 {
+    font-family: light-font;
+    font-size: 250px;
+}
+
+/* Ensures proper positioning for the quotation marks */
+
+.start-quotation {
+    position: relative;
+    width: 30px;
+    left: 16px;
+    bottom: 11.5px;
+    filter: opacity(25%);
+}
+
+.end-quotation {
+    position: relative;
+    width: 32px;
+    left: 9px;
+    bottom: 47px;
+    filter: opacity(25%);
+    transform: scaleX(-1);
+}
